@@ -1,4 +1,6 @@
 #include <iostream>
+#include <map>
+#include <string>
 
 struct MyStruct {
     int i = 0;
@@ -23,5 +25,13 @@ int main(int argc, char * argv[])
   // the following code demonstrates how code can significantly improve with 
   // structured bindings. To iterate over the elements of a std::map<> without 
   // structured bindings you would have to program
-  
+  std::map<int,std::string> mymap = { {1, "Hello"}, {2, "Dimitar"} }; 
+  for (const auto& elem : mymap) {
+      std::cout << elem.first << ": " << elem.second << "\n";
+  }
+
+  // by using structured bindings the code above gets more readable
+  for (const auto& [key, val] : mymap) {
+      std::cout << key << ": " << val << '\n';
+  }
 } 
