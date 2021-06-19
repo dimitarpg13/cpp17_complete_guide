@@ -8,3 +8,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # add the executable
 add_executable(struct_bind01 struct_bind01.cpp)
+add_executable(struct_bind02 struct_bind02.cpp)
