@@ -2,3 +2,5 @@
 
 
 ## my C++ stuff
+
+[CppCon 2019 articles, tutorials, specs](https://github.com/dimitarpg13/cppcon2019)
