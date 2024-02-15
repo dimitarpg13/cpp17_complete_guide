@@ -11,3 +11,8 @@
 ### Conferences, articles and specs
 
 [CppCon 2019 articles, tutorials, specs](https://github.com/dimitarpg13/cppcon2019)
+
+
+### C++ library and packages forks
+
+[Lewis Baker's cppcoro](https://github.com/dimitarpg13/cppcoro)
